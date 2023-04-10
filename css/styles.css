@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 562.5%;/*100% = 16px*/
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+}
+
+h2{
+    margin-top: 0;
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /*1rem = 16px*/
+    font-weight: normal;
+}
+
+h3{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+}
+
+div{
+}
+
+hr{
+    border-style: dotted none none;
+    border-color: #E4F9F5;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+    margin: 50px auto 50px auto;
+}
+
+.top_container{
+    background-color: #E4F9F5;
+    border-width: 10px;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 0px 20px 0px;
+}
+.midle_container{
+
+}
+.bottom_container{
+    background-color: #66BFBF;
+    margin-top: 100px;
+}
+
+.bottom_cloud{
+    position: absolute;
+    left: 200px;
+}
+
+.top_cloud{
+    position: relative;
+    left: 400px;
+}
+
+.skill-row{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.hack_img{
+    float: left;
+    margin: 0px 30px 100px auto;
+}
+.ard_img{
+    float: right;
+    margin: 0px auto 0px 30px;
+}

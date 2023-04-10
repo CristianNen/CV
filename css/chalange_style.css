@@ -1,0 +1,55 @@
+/* RELATIVE POSITION>>>>>>>>>>>>>>>>>
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+}
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+}
+RELATIVE POSITION <<<<<<<<<<<<<<<<<*/
+
+/*ABSOLUTE POSITION>>>>>>>>>>*/
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+/*ABSOLUTE POSITION<<<<<<<<<<<<<*/
